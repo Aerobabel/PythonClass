@@ -1,2 +1,2 @@
-print("hello")
+print("hello world")
 #я уже занимаюсь машинным обучением хаха
