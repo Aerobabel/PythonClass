@@ -1,4 +1,4 @@
-# PythonClass10
+# PythonClass
 #  АЧЕНЕДЖЕ
 #  ААРОН
 #  М10-114БКИ
