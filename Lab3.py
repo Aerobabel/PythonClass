@@ -2,7 +2,7 @@
 
 A = [1, 2, 0, 4, 5, 1, 10, 20, 0, 2]
 
-def maxim(A):
+def list_sum(A):
     list = A
     sum = 0
     
@@ -12,7 +12,7 @@ def maxim(A):
     print(f'Их суммa равнa {sum}')
          
        
-maxim(A)
+list_sum(A)
 
 print("")
 
