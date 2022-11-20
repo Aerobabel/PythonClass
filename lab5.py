@@ -8,6 +8,7 @@ class Rocket:
         self.mass = mass
         self.fuel = fuel
         self.active = active
+        self.mass = self.mass + fuel
        
     #приводит к постоянному расходу топлива     
     def spend_fuel(self, count): 
@@ -51,6 +52,7 @@ class Rocket:
 main = Rocket(1000, 400, True)
 
 while main.active == True:
+    print(main.get_total_weight(), main.get_fuel_level(), main.active)
     
     main.spend_fuel(30)
     
